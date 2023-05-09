@@ -5,7 +5,7 @@ function layout({ children }: { children: React.ReactNode }) {
     <>
       <body>{children}</body>
     </>
-  );
+  );  
 }
 
 export default layout;

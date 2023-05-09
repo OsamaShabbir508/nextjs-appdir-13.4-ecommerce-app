@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 interface Props {
   url: string;
-  fill: boolean;
+  fill?: boolean;
 }
 function ProductImage({ url, fill }: Props) {
   const [loading, setLoading] = useState(true);
